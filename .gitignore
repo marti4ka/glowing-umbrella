@@ -32,5 +32,5 @@ proguard/
 # Android Studio captures folder
 .idea/
 gradle
-gradlew
+gradlew*
 captures/
