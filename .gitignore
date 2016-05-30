@@ -1,6 +1,7 @@
 # Built application files
 *.apk
 *.ap_
+*.iml
 
 # Files for the Dalvik VM
 *.dex
@@ -29,6 +30,7 @@ proguard/
 .navigation/
 
 # Android Studio captures folder
+.idea/
 gradle
 gradlew
 captures/
