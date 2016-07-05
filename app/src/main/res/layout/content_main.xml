@@ -15,5 +15,25 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Hello World!"
+        android:id="@+id/textView2" />
+
+
+    <FrameLayout
+        android:id="@+id/sample_content_fragment"
+        android:layout_width="380dp"
+        android:layout_height="242.25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp" />
+
+    <fragment
+        android:name="com.droidcluster.logger.LogFragment"
+        android:id="@+id/log_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="280dp" />
+
 </RelativeLayout>
